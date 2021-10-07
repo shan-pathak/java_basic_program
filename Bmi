@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Bmi {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		double bi;
+		System.out.print("Enter Weight(in kg) : ");
+		double wgt=sc.nextDouble();
+		System.out.print("Enter Height(in mtrs) : ");
+		double hgt=sc.nextDouble();
+		bi=wgt/(hgt*hgt);
+		System.out.println("BMI : "+bi);	
+	}
+}
