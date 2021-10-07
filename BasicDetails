@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class BasicDetails {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Your Details :--- ");
+		System.out.print("Name : ");
+		String name=sc.nextLine();
+		System.out.print("Mobile No. : ");
+		long mob=sc.nextLong();
+		System.out.print("Email Id : ");
+		String em=sc.next();
+		System.out.println("Name : "+name);
+		System.out.println("Mobile No. : "+mob);
+		System.out.println("Email Id : "+em);
+	}
+}
